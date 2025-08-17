@@ -43,16 +43,20 @@ When scanned, the QR reveals tractor details like owner info, model, and service
 ```bash
 git clone https://github.com/adityaehhhh/Escorts-Summer-Internship
 cd qr-tractor-management
+```
 
 ### 2. Start The Backend
+```bash
 cd backend
 npm install
 npm run dev
 Runs at: http://localhost:5000
+```
 
-```bash
 ### 3. Start The Frontend
+```bash
 cd ../frontend
 npm install
 npm start
 Runs at: http://localhost:3000
+```
