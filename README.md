@@ -5,8 +5,10 @@ Smart tractor solution 🚜 using QR codes for management &amp; monitoring &amp;
 
 ### 📅 Week 1 – QR Management & React Libraries
 
-(1) Implemented QR code generation & scanning using React QR Library\n
+(1) Implemented QR code generation & scanning using React QR Library
+
 (2) Built a frontend for tractor detail management
+
 (3) Integrated tractor info with unique QR codes
 
 ### 📅 Week 2 – Email & Notifications
