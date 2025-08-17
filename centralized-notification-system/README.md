@@ -46,22 +46,27 @@ Developers can integrate this service into their applications using an **API Key
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the Repo
+```bash
 git clone https://github.com/adityaehhhh/Escorts-Summer-Internship
 cd centralized-notification-system
+```
 
 ### 2. Start The Backend
+```bash
 cd backend
 npm install
 node server.js
 node worker.js
 Runs at: http://localhost:5000
+```
 
 ### 3. Start The Frontend (Backend Dev Dashboard + Sample App)
+```bash
 cd frontend
 npm install
 npm start
 Runs at: http://localhost:3000
-
+```
 
 ### 📱 Sample App
 The frontend sample app demonstrates:
@@ -74,3 +79,4 @@ Sending test notifications with your API key
  Email/SMS integration
  Admin Panel for API Key Management
  Analytics Dashboard for notification delivery
+
