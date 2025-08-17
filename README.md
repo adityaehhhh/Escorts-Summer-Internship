@@ -14,17 +14,23 @@ Smart tractor solution 🚜 using QR codes for management &amp; monitoring &amp;
 ### 📅 Week 2 – Email & Notifications
 
 (1) Worked with Nodemailer React Library to send emails
+
 (2) Setup Firebase Cloud Messaging (FCM) for real-time notifications
+
 (3) Created a sample app to test push notifications
 
 ### 📅 Week 3 – Database Foundations
 
 (1) Learned SQL queries for CRUD operations
+
 (2) Explored MySQL basics – schema design, joins, indexes
+
 (3) Connected backend APIs to relational databases
 
 ### 📅 Week 4 – Advanced Database & PostgreSQL
 
 (1) Transitioned from MySQL → PostgreSQL
+
 (2) Practiced advanced queries, triggers, stored procedures
+
 (3) Optimized queries for performance in notification + tractor systems
