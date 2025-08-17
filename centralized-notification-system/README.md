@@ -46,42 +46,31 @@ Developers can integrate this service into their applications using an **API Key
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the Repo
-```bash
-git clone https://github.com/your-username/centralized-notification-system.git
+git clone https://github.com/adityaehhhh/Escorts-Summer-Internship
 cd centralized-notification-system
-2. Start The Backend
-bash
-Copy
-Edit
+
+### 2. Start The Backend
 cd backend
 npm install
-npm run dev
+node server.js
+node worker.js
 Runs at: http://localhost:5000
 
-3. Start The Frontend (Sample App)
-bash
-Copy
-Edit
-cd ../frontend
+### 3. Start The Frontend (Backend Dev Dashboard + Sample App)
+cd frontend
 npm install
 npm start
 Runs at: http://localhost:3000
 
 
-📱 Sample App
+### 📱 Sample App
 The frontend sample app demonstrates:
-
 Fetching user notifications
-
 Displaying real-time updates
-
 Sending test notifications with your API key
 
-✅ Roadmap
+### ✅ Roadmap
  Push Notifications (Browser + Mobile)
-
  Email/SMS integration
-
  Admin Panel for API Key Management
-
  Analytics Dashboard for notification delivery
