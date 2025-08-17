@@ -1,0 +1,80 @@
+.tractor-barcode-gen .min-h-screen {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../assets/tractor.webp') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tractor-barcode-gen .bg-white {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  padding: 24px;
+  width: 100%;
+  max-width: 400px;
+  margin-left: 5%;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.tractor-barcode-gen h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #166534; 
+  margin-bottom: 16px;
+}
+
+.tractor-barcode-gen input, button {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.tractor-barcode-gen input:focus {
+  border-color: #22c55e; 
+  outline: none;
+  box-shadow: 0 0 4px #22c55e;
+}
+
+.tractor-barcode-gen button {
+  background-color: #16a34a; 
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tractor-barcode-gen button:hover:not([disabled]) {
+  background-color: #15803d; 
+}
+
+.tractor-barcode-gen button:disabled {
+  background-color: #9ca3af; 
+  cursor: not-allowed;
+}
+
+.tractor-barcode-gen .mt-6 {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.tractor-barcode-gen .qr-code {
+  padding: 12px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

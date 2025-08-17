@@ -1,0 +1,81 @@
+body {
+  background: url('../assets/tractor.webp') no-repeat center center/cover;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tractor-qr-scanner {
+  max-width: 500px;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.9); 
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  backdrop-filter: blur(6px);
+}
+
+.tractor-qr-scanner h2 {
+  text-align: center;
+  color: #166534;
+  margin-bottom: 16px;
+}
+
+#qr-reader {
+  margin: 0 auto 16px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px;
+  background: #f9f9f9;
+}
+
+.upload-btn {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background-color: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upload-btn:hover {
+  background-color: #15803d;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.tractor-details {
+  margin-top: 20px;
+}
+
+.tractor-details p {
+  margin: 4px 0;
+}
+
+.tractor-details h2 {
+  font-size: 24px;
+  color: #166534;
+  margin: 8px 0;
+}
+
+.dates-row, .info-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dates-row p, .info-row p {
+  flex: 1 1 45%;
+  margin: 5px 0;
+}
+
+.incomplete-field {
+  color: #9ca3af; 
+  font-style: italic;
+}
