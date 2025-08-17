@@ -1,0 +1,202 @@
+.sample-app {
+  background: #fff;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px 24px;
+  font-family: Segoe UI, Roboto, sans-serif;
+  box-shadow: 0 2px 8px #00000014;
+}
+
+.sample-app h3 {
+  color: #222;
+  text-align: center;
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.form label {
+  color: #444;
+  flex: 1;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+}
+
+.form input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.form button {
+  color: #fff;
+  cursor: pointer;
+  background: #4a90e2;
+  border: none;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background .2s;
+}
+
+.form button:hover {
+  background: #357ab8;
+}
+
+.form button:disabled {
+  cursor: not-allowed;
+  background: #999;
+}
+
+.sample-app select {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  margin-top: 4px;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.sampleBox {
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  margin-top: 16px;
+  padding: 14px;
+}
+
+.sampleBox p {
+  color: #333;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sampleBox pre {
+  color: #111;
+  background: #f4f4f4;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 12px;
+  overflow-x: auto;
+}
+
+.sampleBox label {
+  color: #444;
+  align-items: center;
+  margin: 6px 0;
+  font-size: 13px;
+  display: flex;
+}
+
+.sampleBox input {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+  margin-left: 6px;
+  padding: 5px 9px;
+  font-size: 13px;
+}
+
+.sampleBox button {
+  color: #fff;
+  cursor: pointer;
+  background: #27ae60;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background .2s;
+}
+
+.sampleBox button:hover {
+  background: #1e874b;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+nav a {
+  margin-right: 8px;
+}
+
+.form {
+  flex-direction: column;
+  gap: 8px;
+  max-width: 320px;
+  display: flex;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 12px;
+}
+
+.controls {
+  margin-top: 12px;
+}
+
+.tpl-pre {
+  white-space: pre-wrap;
+  background: #f9f9f9;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.apiKeyBox {
+  background: #eef;
+  border-radius: 6px;
+  margin-top: 12px;
+  padding: 8px;
+}
+
+.sampleBox {
+  border: 1px dashed #aaa;
+  border-radius: 6px;
+  margin-top: 12px;
+  padding: 12px;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+input, select {
+  padding: 8px;
+}
+/*# sourceMappingURL=public.d91c94e1.css.map */

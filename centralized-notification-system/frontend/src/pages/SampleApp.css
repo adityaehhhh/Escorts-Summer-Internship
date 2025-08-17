@@ -1,0 +1,132 @@
+
+.sample-app {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px 24px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.sample-app h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #222;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.form label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+}
+
+.form input {
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form button {
+  padding: 7px 14px;
+  background: #4a90e2;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.form button:hover {
+  background: #357ab8;
+}
+
+.form button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.sample-app select {
+  padding: 6px 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.sampleBox {
+  margin-top: 16px;
+  padding: 14px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.sampleBox p {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.sampleBox pre {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #111;
+  margin-bottom: 10px;
+  overflow-x: auto;
+}
+
+.sampleBox label {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  font-size: 13px;
+  color: #444;
+}
+
+.sampleBox input {
+  margin-left: 6px;
+  padding: 5px 9px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 13px;
+  flex: 1;
+}
+
+.sampleBox button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.sampleBox button:hover {
+  background: #1e874b;
+}
